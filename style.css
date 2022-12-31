@@ -1,0 +1,281 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+
+
+}
+.parent a:hover{
+
+   color: blue;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+.logo h1{
+    color: #00ccb1;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 100 !important;
+}
+.tekst {
+    display: flex;
+    justify-content: space-around;
+    font-family: Work Sans,Arial,sans-serif
+    
+}
+.p1 {
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.p2{
+    margin-right: 10%;
+    margin-left: 2%;
+}
+.kolom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    
+
+}
+.one {
+ background-color: #00ccb1;
+ margin-left: 10%;
+ margin-right: 2%;
+ border-radius: 5%;
+ padding-left: 2%;
+ padding-top: 2%;
+ padding-bottom: 5%;
+ margin-right: 5%;
+    
+    
+}
+
+.two {
+    background-color: #508fe2;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.three {
+ background-color: #323c48;
+ margin-right: 10%;
+ margin-left: 2%;
+ border-radius: 5%;
+ padding-left: 2%;
+ padding-top: 2%;
+}
+
+select{
+    background: transparent;
+    border: 0;
+    color: white;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logos h1 {
+    color: #00ccb1;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 100 !important;
+}
+
+.section__inner {
+display: flex;   
+justify-content: space-around;
+margin-left: 10%; 
+margin-right: 10%;
+color: #00ccb1;
+
+}
+
+.brands__logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+.brands__logos li {
+    display: inline-block;
+    padding: 5px 0 5px 5px;
+    width: auto;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+.section_2{
+    display: flex;
+    background-color: #d9f7f6d8;
+    width: 100%;
+    padding-left: 10%;
+
+   
+}
+
+.section_3{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 50%;
+}   
+
+.section_2 h1{
+    color: #00ccb1;
+    
+}
+ .section_3 h3{
+    color: #00ccb1;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 100 !important;
+ }
+
+.section_4{
+    width: 50%;
+    margin-top: 10%;
+    color: #00ccb1;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 100 !important;
+    margin-left: 2%;
+    
+
+}
+
+.a1 {
+    background-color: white;
+    border-radius: 5%;
+    padding-inline-start: 2%;
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 2%;
+    font-family: Work Sans,Arial,sans-serif
+    
+}
+
+.a2 {
+    font-size: 12px;
+    font-family: Work Sans,Arial,sans-serif
+}
+.a3 {
+    background-color: white;
+    border-radius: 5%;
+    padding-inline-start: 2%;
+    text-align: center;
+    margin-top: 2%;
+    padding-top: 10%;
+    font-family: Work Sans,Arial,sans-serif
+}
+
+.a4 {
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 100 !important;
+
+}
+
+.a5 {
+    text-align: center;
+}
+
+.a5 h1{
+    color: #00ccb1;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 100 !important;
+}
+
+.a6 {
+    font-size: 15px;
+    font-family: Work Sans,Arial,sans-serif
+}
+
+.steden {
+    display: grid;
+    gap:20px;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto auto auto;
+    margin-left: 10%;
+}
+
+.button {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        border-radius: 4px;
+        background: #3d83df;
+        font-family: Roboto,Arial,sans-serif;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        border: none;
+}
+
+.stad {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+  
+    margin-top: 5%;
+}
+
+.warsaw:hover{
+    padding: 5px 5px 7px 5px;
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 13%);
+    border-radius: 5%;
+
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer h2{
+    color: black;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 100 !important;
+    margin-top: 5%;
+}
+.btn{
+    
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border-radius: 4px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    padding: 2%;
+}
+}
